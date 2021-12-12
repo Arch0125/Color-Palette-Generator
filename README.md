@@ -5,6 +5,7 @@ This project uses the concept of React native functional companents to create re
 Math functions like Math.random to generate random numbers and it is converted to hexadecimal codes which is then converted to string as an hex-code for the color.
 
 GIF/Screenshot:
+
 ![2021-12-12 09:21:25 117191074](https://user-images.githubusercontent.com/72722967/145706975-a9ad110f-09ba-4c6f-920b-3af890a284d6.gif)
 
 Features:
