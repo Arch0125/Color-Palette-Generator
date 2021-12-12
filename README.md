@@ -14,10 +14,13 @@ Features:
 # How to run the app :
 
 Clone the repo:
-Inline 'git clone https://github.com/Arch0125/color_palette'
+
+`git clone https://github.com/Arch0125/color_palette`
 
 Install packages:
-Inline 'npm i'
+
+`npm i`
 
 Start expo:
-Inline 'expo start'
+
+`expo start`
