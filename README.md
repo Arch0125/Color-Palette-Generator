@@ -10,6 +10,7 @@ GIF/Screenshot:
 
 Features:
 > Generate colours as many time you want
+
 > Copy the hex code by tapping on the hex-code on the screen
 
 # How to run the app :
