@@ -2,15 +2,15 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { TouchableOpacity } from 'react-native'
 
-const Gen_button = () => {
+const Gen_button = ({...rest}) => {
     return (
-        <View style={styles.genbutton} >
+        <TouchableOpacity style={styles.genbutton} {...rest} >
             
             <Text style={styles.buttontext} >Generate colour palette !</Text>
 
             
             
-        </View>
+        </TouchableOpacity>
     )
 }
 
@@ -23,13 +23,14 @@ const styles = StyleSheet.create({
 
     },
     genbutton:{
-        marginTop:50,
+        
         justifyContent:"center",
         alignItems:"center",
         backgroundColor:"#070b47",
         width:350,
         borderRadius:15,
-        height:50
+        height:50,
+        marginBottom:50
         
 
     },
