@@ -11,13 +11,13 @@ Features:
 > Generate colours as many time you want
 > Copy the hex code by tapping on the hex-code on the screen
 
-#How to run the app :
+# How to run the app :
 
 Clone the repo:
-'git clone https://github.com/Arch0125/color_palette'
+Inline 'git clone https://github.com/Arch0125/color_palette'
 
 Install packages:
-'npm i'
+Inline 'npm i'
 
 Start expo:
-'expo start'
+Inline 'expo start'
