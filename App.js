@@ -37,13 +37,13 @@ const App = () => {
       <View style={styles.color_row} >
         
         <Color_box hexcode={hex1} onPress={()=>{Clipboard.setString(hex1);createAlert()}} />
-        <Color_box hexcode={hex2}/>
+        <Color_box hexcode={hex2} onPress={()=>{Clipboard.setString(hex2);createAlert()}}/>
         
       </View>
 
       <View style={styles.color_row} >
-        <Color_box hexcode={hex3}/>
-        <Color_box hexcode={hex4}/>
+        <Color_box hexcode={hex3} onPress={()=>{Clipboard.setString(hex3);createAlert()}}/>
+        <Color_box hexcode={hex4} onPress={()=>{Clipboard.setString(hex4);createAlert()}}/>
       </View> 
 
       <Text style={styles.subtitle} >Tap on the color code to copy !</Text>
